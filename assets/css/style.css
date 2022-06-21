@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 120px;
+}
+/*Header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 3.75rem;
+}
+
+.menu a:not(.menu-sign-up) {
+  text-decoration: none;
+  color: #aea299;
+}
+
+.menu a:not(.menu-sign-up):hover,
+.menu a:not(.menu-sign-up):focus {
+  color: #51649d;
+  transition: 0.3s;
+}
+
+.menu-sign-up {
+  padding: 17px 40px;
+  background-color: #48598b;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Main*/
+
+.main-text {
+  margin-top: 150px;
+}
+
+.main-text h1 {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.main-text p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+
+.btn-for-free {
+  border: none;
+  padding: 17px 40px;
+  background-color: #48598b;
+  border-radius: 15px;
+}
+
+.btn-for-free a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.conteudo-principal {
+  display: flex;
+  background-image: url(../img/birds.svg);
+  background-repeat: no-repeat;
+  background-position: 280px 20px;
+}
+
+.botao-play {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.ilustracao {
+  padding: 1rem;
+}
+
+/*Seção Partners*/
+.partners h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.partners-logos {
+  display: flex;
+  justify-content: center;
+  gap: 6.25rem;
+}
